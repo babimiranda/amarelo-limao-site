@@ -105,3 +105,14 @@
       .cols-2{ grid-template-columns:1fr }
       nav.menu{ display:none }
     }
+    .logo-img {
+  width: 180px; /* diminui a largura — pode testar 120px, 100px, etc */
+  height: auto;
+  display: block;
+}
+.modelos img {
+  width: 100%;
+  height: 220px; /* pode ajustar pra 200, 250, 300px conforme o layout */
+  object-fit: cover; /* corta e centraliza mantendo proporção */
+  border-radius: 12px; /* deixa os cantos suaves */
+}
