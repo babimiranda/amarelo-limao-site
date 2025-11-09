@@ -9,7 +9,7 @@
       --radius:16px;
       --shadow:0 10px 30px rgba(0,0,0,.35);
       --container:1100px;
-      --hero-photo:url('https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=1600&auto=format&fit=crop'); /* pessoas no celular */
+      --hero-photo:url('/Imagens/pexels-philipp-pistis-164965741-10963241.jpg'); /* pessoas no celular */
     }
     *{ box-sizing:border-box }
     html,body{ height:100% }
