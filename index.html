@@ -1,253 +1,367 @@
 <!-- rebuild github pages -->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js" defer></script>
+  <meta name="description" content="One-page que gera contato: promessa clara, benefícios diretos e WhatsApp em 1 clique. Ideal para salões, restaurantes, artistas e negócios locais.">
+  <title>Amarelo Limão — Sites que colocam você no mapa</title>
 
-  <title>Amarelo Limão — Site em JS + Google Meu Negócio</title>
-  <meta name="description"
-    content="One-page que gera contato: promessa clara, benefícios diretos e WhatsApp em 1 clique. Ideal para salões, restaurantes, artistas e negócios locais." />
-  <meta name="theme-color" content="#0b0b0b" />
-  <meta property="og:title" content="Amarelo Limão — Sites que colocam você no mapa" />
-  <meta property="og:description" content="Entrega em até 72h. JS puro + GMB. Rápido, leve e focado em conversão." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="/capa.jpg" />
-  <link rel="icon" href="/Imagens/favicon-removebg-preview.png" type="image/svg+xml" />
+  <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+  
 
 
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="wrap row">
-      <a class="logo" href="" aria-label="Amarelo Limão">
-        <a class="logo" href="#" aria-label="Amarelo Limão">
-          <img src="/Imagens/logo_amarelo-removebg-preview.png" alt="Amarelo Limão Tecnologia" class="logo-img">
-        </a>
+<header class="topbar">
+  <div class="wrap row">
+    <!-- Logo à esquerda -->
+    <a href="#planos" class="logo-link" aria-label="Amarelo Limão">
+      <img src="Imagens/logo_amarelo-removebg-preview.png" alt="Amarelo Limão Tecnologia" class="glow-logo">
+    </a>
 
-      </a>
-      <nav class="menu" aria-label="Navegação primária">
-        <a href="#servicos">Serviços</a>
-        <a href="#niches">Para quem</a>
-        <a href="#planos">Planos</a>
-        <a href="#agil">Agilidade</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <a class="btn" href="https://wa.me/5531986773819?text=Oi%20Amarelo%20Lim%C3%A3o!%20Quero%20um%20site%20e%20GMB."
-        target="_blank" rel="noopener">Pedir orçamento</a>
+    <!-- Menu central -->
+    <nav class="menu" aria-label="Navegação primária">
+      <a href="#servicos">Serviços</a>
+      <a href="#niches">Para quem</a>
+      <a href="#planos">Planos</a>
+      <a href="#agil">Agilidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Botão à direita -->
+    <a class="btn" href="https://wa.me/5531986773819?text=Oi%20Amarelo%20Lim%C3%A3o!%20Quero%20um%20site%20e%20GMB."
+       target="_blank" rel="noopener">Pedir orçamento</a>
+  </div>
+</header>
+
+
+
+<section class="hero" style="background-image:url('Imagens/homem-de-tiro-medio-vivendo-como-nomade-digital.jpg'); background-size:cover; background-position:center;">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="tag">Entrega enxuta · resultado em poucos dias</span>
+      <h1 class="title">
+        Colocamos seu negócio no mapa do Google Business Profile em
+        <span class="neon">72h</span> sem enrolação! Para você atrair clientes reais.
+      </h1>
+      <p class="subtitle">One-page leve que faz a pessoa <b>clicar no seu WhatsApp</b>. Texto claro, mapa e prova social.</p>
+      <p style="margin:16px 0 0"><a class="btn" href="#planos">Quero aparecer no mapa Google</a></p>
     </div>
-  </header>
 
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div>
-        <span class="tag">Entrega enxuta · resultado em poucos dias</span>
-        <h1 class="title">Colocamos seu negócio no mapa do Google Business Profile em <span class="neon">72h</span>. Sem
-          enrolação.
-          (Google Meu Negócio) para atrair clientes reais.</h1>
-        <p class="subtitle">One-page leve que faz a pessoa <b>clicar no seu WhatsApp</b>. Texto claro, mapa e prova
-          social. Ideal para salões, restaurantes e artistas.</p>
-        <p style="margin:16px 0 0"><a class="btn" href="#planos">Quero aparecer no mapa</a></p>
-      </div>
-      <aside class="hero-card" aria-label="Destaques">
-        <div class="chip">O que você ganha</div>
-        <ul style="margin:12px 0 0; padding-left:18px; color:var(--ink)">
-          <li>WhatsApp 1-clique e mapa embutido</li>
-          <li>Copy simples que reduz objeções</li>
-          <li>Imagens tratadas e identidade enxuta</li>
-          <li>Pronto pra evoluir sem refazer tudo</li>
+    <aside class="hero-card" aria-label="Destaques">
+      <div class="chip">O que você ganha</div>
+      <ul style="margin:12px 0 0; padding-left:18px; color:var(--ink)">
+        <li>WhatsApp 1-clique e mapa embutido</li>
+        <li>Copy simples que reduz objeções</li>
+        <li>Imagens tratadas e identidade enxuta</li>
+        <li>Pronto pra evoluir sem refazer tudo</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="benefits">
+  <h2>O que você ganha</h2>
+  <ul>
+    <li><div class="benefit-media"><span>📍</span></div><div class="benefit-text"><b>Botão de WhatsApp e mapa direto pro seu negócio</b><br>Seu cliente te acha fácil e fala com você em um clique.</div></li>
+    <li><div class="benefit-media"><span>🧠</span></div><div class="benefit-text"><b>Textos que ajudam o cliente a escolher você</b><br>Frases simples que mostram seus pontos fortes e geram confiança.</div></li>
+    <li><div class="benefit-media"><span>📊</span></div><div class="benefit-text"><b>Posicionamento pensado para o seu bairro</b><br>Ajustes locais pra você aparecer pra quem realmente pode comprar de você.</div></li>
+    <li><div class="benefit-media"><span>📸</span></div><div class="benefit-text"><b>Fotos bonitas e visual profissional</b><br>Imagens tratadas e layout moderno que passam credibilidade.</div></li>
+    <li><div class="benefit-media"><span>⚙️</span></div><div class="benefit-text"><b>Site fácil de atualizar e que não fica velho</b><br>Estrutura leve, pronta pra crescer com seu negócio.</div></li>
+    <li><div class="benefit-media"><span>🎥</span></div><div class="benefit-text"><b>Reunião por vídeo pra entender o que você faz</b><br>A gente escuta suas ideias e cria tudo do seu jeito.</div></li>
+  </ul>
+</section>
+
+<section id="servicos">
+  <div class="wrap">
+    <h2>Serviços focados no que converte</h2>
+    <p class="lead">Primeiro presença profissional; depois a gente escala com calma e método.</p>
+    <div class="grid cols-3">
+      <article class="card"><span class="chip">Sites Profissionais</span><h3>One-Page que vende</h3><p>Promessa clara + benefícios + Chamada para ação do cliente. Responsivo, rápido e didático pra manter.</p></article>
+      <article class="card"><span class="chip">Seu perfil na busca Google</span><h3>Google Business Profile Turbo</h3><p>Perfil, categorias, textos locais e posts iniciais. Seja encontrado no mapa Google.</p></article>
+      <article class="card"><span class="chip">Parcerias</span><h3>Social & Tráfego</h3><p>Trabalhamos para o que faz diferença com excelência em seu empreendimento!</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="niches" style="background:var(--bg-alt)">
+  <div class="wrap">
+    <h2>Clientes & Segmentos que brilham no mapa</h2>
+    <p class="lead">Cada projeto nasce pra gerar presença e resultado. Com <b>posicionamento local inteligente</b> e <b>aparência profissional</b>, nossos clientes abrem espaço para novos e melhores negócios.</p>
+
+    <div class="grid cols-3">
+  <div class="card hover-glow">
+    <img src="/Imagens/pexels-yankrukov-9008830.jpg" alt="Cantores e bandas" />
+    <h3>Cantores & Bandas</h3>
+    <p>Agenda, fotos, vídeos e contato direto. Um palco digital pra sua arte.</p>
+  </div>
+
+  <div class="card hover-glow">
+    <img src="/Imagens/restaruante.jpg" alt="Bares e restaurantes" />
+    <h3>Bares & Restaurantes</h3>
+    <p>Cardápio online, rota no Google e link de pedidos — seu sabor no mapa.</p>
+  </div>
+
+  <div class="card hover-glow">
+    <img src="/Imagens/Barbearia.jpg" alt="Salões e barbearias" />
+    <h3>Salões & Barbearias</h3>
+    <p>Fotos profissionais, avaliações e agendamento via WhatsApp.</p>
+  </div>
+
+  <div class="card hover-glow">
+    <img src="/Imagens/par-casando-dancar.jpg" alt="Cerimoniais e eventos" />
+    <h3>Cerimoniais & Eventos</h3>
+    <p>Sites elegantes que refletem o cuidado de quem cria experiências.</p>
+  </div>
+
+  <div class="card hover-glow">
+    <img src="/Imagens/jovem-pediatra-trabalhando-em-seu-escritorio.jpg" alt="Consultórios e profissionais locais" />
+    <h3>Profissionais Locais</h3>
+    <p>Consultórios, estúdios e serviços com reputação fortalecida no Google.</p>
+  </div>
+
+  <div class="card hover-glow">
+    <img src="/Imagens/jovem-feliz-usando-cartao-de-credito-para-compras-line-a-noite-em-casa.jpg" alt="Lojas e e-commerce" />
+    <h3>Lojas & E-commerce</h3>
+    <p>Sites leves e responsivos que transformam visitantes em clientes.</p>
+  </div>
+</div>
+
+</section>
+
+<section id="planos">
+  <div class="wrap">
+    <h2>Planos simples pra começar</h2>
+
+    <div class="grid cols-3 planos-impacto">
+      <div class="card">
+        <h3>⚡ Start</h3>
+        <p><b>R$ 990</b> · site one-page</p>
+        <ul>
+          <li>Modelo + personalização visual</li>
+          <li>WhatsApp e mapa integrados</li>
+          <li>Publicação com domínio próprio</li>
+          <li><b>Ajuste fino gratuito</b> em 7 dias</li>
         </ul>
-      </aside>
-    </div>
-  </section>
+        <p>
+          <a class="btn" 
+             href="https://wa.me/5531986773819?text=Oi!%20Quero%20começar%20com%20o%20plano%20Start%20da%20Amarelo%20Limão!🍋" 
+             target="_blank" 
+             rel="noopener">
+            Começar em 72h
+          </a>
+        </p>
+      </div>
 
-  <section id="servicos">
-    <div class="wrap">
-      <h2>Serviços focados no que converte</h2>
-      <p class="lead">Primeiro presença profissional; depois a gente escala com calma e método.</p>
-      <div class="grid cols-3">
-        <article class="card">
-          <span class="chip">Front-end JS</span>
-          <h3>One-Page que vende</h3>
-          <p>Promessa clara + benefícios + CTA. Responsivo, rápido e didático pra manter.</p>
-        </article>
-        <article class="card">
-          <span class="chip">Google Meu Negócio</span>
-          <h3>GMB Turbo</h3>
-          <p>Perfil, categorias, textos locais e posts iniciais. Seja encontrado no mapa.</p>
-        </article>
-        <article class="card">
-          <span class="chip">Parcerias</span>
-          <h3>Social & Tráfego (quando fizer sentido)</h3>
-          <p>Sem modinha: ativamos só se o investimento se pagar.</p>
-        </article>
+      <div class="card destaque">
+        <h3>🚀 Start + Google <span style="font-size:12px;color:var(--muted)">· mais escolhido</span></h3>
+        <p><b>R$ 1.890</b> · site + Google Perfil</p>
+        <ul>
+          <li>Tudo do plano Start</li>
+          <li>Criação e otimização no Google Perfil de Negócio</li>
+          <li>4 posts iniciais para destaque local</li>
+          <li><b>Texto conectado</b> com foco em resultado real</li>
+        </ul>
+        <p>
+          <a class="btn" 
+             href="https://wa.me/5531986773819?text=Oi!%20Quero%20me%20destacar%20com%20o%20plano%20Start%20%2B%20Google%20da%20Amarelo%20Limão!🍋" 
+             target="_blank" 
+             rel="noopener">
+            Quero aparecer agora
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌱 Evoluir</h3>
+        <p><b>R$ 2.970</b> · crescimento digital</p>
+        <ul>
+          <li>One-page + 2 páginas extras</li>
+          <li>Copy revisada + base SEO otimizada</li>
+          <li>Formulário e e-mail integrados</li>
+          <li>Pronto para escalar e gerar autoridade</li>
+        </ul>
+        <p>
+          <a class="btn" 
+             href="https://wa.me/5531986773819?text=Oi!%20Quero%20evoluir%20com%20o%20plano%20Evoluir%20da%20Amarelo%20Limão!🍋" 
+             target="_blank" 
+             rel="noopener">
+            Escalar com segurança
+          </a>
+        </p>
       </div>
     </div>
-  </section>
 
-  <section id="niches" style="background:var(--bg-alt)">
-    <div class="wrap">
-      <h2>Exemplos por nicho</h2>
-      <p class="lead">Modelos prontos pra personalizar em 72h.</p>
-      <div class="grid cols-2">
-        <div class="card">
-          <h3>Salões & Barbearias</h3>
-          <p>Cardápio, antes-depois e agendamento por Whats.</p>
-        </div>
-        <div class="card">
-          <h3>Restaurantes & Lanchonetes</h3>
-          <p>Cardápio simples, mapa e link para pedidos.</p>
-        </div>
-        <div class="card">
-          <h3>Artistas & Bandas</h3>
-          <p>Agenda, fotos e contatos de contratação.</p>
-        </div>
-        <div class="card">
-          <h3>Profissionais Locais</h3>
-          <p>Consultórios, aulas e serviços sob demanda.</p>
-        </div>
+    <p class="lead">
+  Sua presença digital cresce no tempo certo — com leveza, estratégia e espaço pra evoluir.
+</p>
+
+  </div>
+</section>
+
+<section id="agil" class="secao-agil">
+  <div class="wrap">
+    <h2>Tecnologia com mentalidade ágil</h2>
+
+    <div class="agil-grid">
+      <div class="agil-card neon-card fade-in">
+        <h3>🚀 MVP em 72h</h3>
+        <p>Publicamos o essencial pra você testar sua presença e já atrair clientes reais. Melhorias vêm em ciclos rápidos e leves.</p>
+      </div>
+
+      <div class="agil-card neon-card fade-in delay-1">
+        <h3>🔄 Evolução contínua</h3>
+        <p>Reunião → publicação → retorno → ajustes. Um fluxo simples e humano pra cada projeto crescer do jeito certo.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="planos">
-    <div class="wrap">
-      <h2>Planos simples pra começar</h2>
-      <div class="grid cols-3">
-        <div class="card">
-          <h3>Start</h3>
-          <p><b>R$ 990</b> · one-page</p>
-          <ul>
-            <li>Modelo + personalização</li>
-            <li>WhatsApp e mapa</li>
-            <li>Publicação em domínio</li>
-            <li><b>Ajuste fino grátis</b> em 7 dias</li>
-          </ul>
-          <p><a class="btn" href="#contato">Começar em 72h</a></p>
-        </div>
-        <div class="card" style="outline:2px solid rgba(180,228,8,.35)">
-          <h3>Start + GMB <span style="font-size:12px;color:var(--muted)">· mais pedido</span></h3>
-          <p><b>R$ 1.890</b> · site + Google</p>
-          <ul>
-            <li>Tudo do Start</li>
-            <li>Configuração/otimização GMB</li>
-            <li>4 posts iniciais</li>
-            <li><b>Texto persuasivo</b> focado em conversão</li>
-          </ul>
-          <p><a class="btn" href="#contato">Quero aparecer já</a></p>
-        </div>
-        <div class="card">
-          <h3>Evoluir</h3>
-          <p><b>R$ 2.970</b> · crescimento</p>
-          <ul>
-            <li>One-page + 2 páginas</li>
-            <li>Copy revisada + SEO base</li>
-            <li>Formulário e e-mail</li>
-            <li>Pronto para escalar</li>
-          </ul>
-          <p><a class="btn" href="#contato">Escalar com segurança</a></p>
-        </div>
-      </div>
-      <p class="lead">Precisa de blog/loja? <b>Upgrade WordPress</b> quando fizer sentido — sem travar seu crescimento.
-      </p>
-    </div>
-  </section>
 
-  <section id="agil">
-    <div class="wrap">
-      <h2>Tecnologia com mentalidade ágil</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <h3>MVP em 72h</h3>
-          <p>Publica o essencial e melhora em ciclos curtos.</p>
-        </div>
-        <div class="card">
-          <h3>Ciclos simples</h3>
-          <p>Briefing → publicação → feedback → evolução.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="portfolio" style="background:var(--bg-alt)">
-    <div class="wrap">
-      <h2>Modelos</h2>
 
-      <div class="grid cols-3">
-        <a class="card" href="#"><img src="/Imagens/pexels-yankrukov-9008830.jpg" alt="cantora" />
-          <h3>Cantores e bandas</h3>
-        </a>
-        <a class="card" href="#"><img src="/Imagens/Barbearia.jpg" alt="Barbearia" />
-          <h3>Barbearias e salões</h3>
-        </a>
-        <a class="card" href="#"><img src="/Imagens/restaruante.jpg" alt="Modelo restaurante" />
-          <h3>Restaurantes e Bares</h3>
-        </a>
-      </div>
-    </div>
-  </section>
+<section id="contato">
+  <div class="wrap">
+    <h2>Contato</h2>
 
-  <section id="contato">
-    <div class="wrap">
-      <h2>Contato</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <p><a class="btn" href="https://wa.me/5531986773819?text=Oi!%20Quero%20um%20site%20e%20GMB." target="_blank"
-              rel="noopener">WhatsApp</a></p>
-          <p><a href="mailto:contato@amarelolimao.com">contato@amarelolimao.com</a></p>
-          <p><a href="https://instagram.com/amarelolimaobr" target="_blank" rel="noopener">@amarelolimaobr</a></p>
-        </div>
-        <form class="card" id="lead-form" aria-label="Formulário de contato">
-          <label>Nome<br>
-            <input required name="nome" placeholder="Seu nome"
-              style="width:100%;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:#111;color:#fff;margin:6px 0 10px">
-          </label>
-          <label>Negócio<br>
-            <input required name="negocio" placeholder="Salão, restaurante, artista…"
-              style="width:100%;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:#111;color:#fff;margin:6px 0 10px">
-          </label>
-          <label>WhatsApp<br>
-            <input required name="whats" placeholder="(DDD) 9 9999-9999"
-              style="width:100%;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:#111;color:#fff;margin:6px 0 16px">
-          </label>
-          <button class="btn" type="submit">Enviar</button>
-          <p id="status" style="color:var(--muted);margin-top:10px"></p>
-        </form>
-      </div>
-    </div>
-  </section>
+    <div class="grid cols-2">
+      <!-- LADO ESQUERDO -->
+     <div class="card" style="background:#000;">
+  <p>
+    <a class="btn" href="https://wa.me/5531986773819?text=Oi!%20Quero%20um%20site%20ou%20presença%20digital%20com%20a%20Amarelo%20Limão!🍋" target="_blank" rel="noopener">
+      WhatsApp
+    </a>
+  </p>
 
-  <footer>
-    <div class="wrap"
-      style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;padding:20px 0 56px">
-      <small>© <span id="year"></span> Amarelo Limão — desde 2023</small>
-      <small>Feito em HTML/CSS/JS • Upgrade WordPress sob demanda</small>
-    </div>
-  </footer>
-
-  <a class="whatsapp-fab" href="https://wa.me/5531986773819?text=Oi!%20Quero%20um%20site%20e%20GMB." target="_blank"
-    aria-label="Falar no WhatsApp" title="Fale no WhatsApp">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.472-.148-.67.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.477-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.173.198-.297.298-.496.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.009-.372-.011-.57-.011-.198 0-.52.074-.792.372-.273.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.711.226 1.359.194 1.871.118.571-.085 1.758-.718 2.006-1.412.248-.694.248-1.288.173-1.412-.074-.124-.272-.198-.57-.347z"
-        fill="#fff" />
-      <path
-        d="M20.52 3.48C18.32 1.28 15.46 0 12.42 0 5.64 0 .12 5.52.12 12.3c0 2.17.57 4.29 1.65 6.16L0 24l5.7-1.77c1.8.99 3.84 1.52 5.94 1.52h.01c6.78 0 12.3-5.52 12.3-12.3 0-3.04-1.18-5.9-3.43-8.05zM12.65 21.8h-.01c-1.86 0-3.68-.5-5.27-1.45l-.38-.23-3.38 1.05 1.1-3.29-.25-.39c-1.03-1.64-1.57-3.54-1.57-5.48 0-5.7 4.64-10.34 10.34-10.34 2.76 0 5.36 1.08 7.31 3.03 1.95 1.95 3.03 4.55 3.03 7.31 0 5.7-4.64 10.34-10.34 10.34z"
-        fill="#fff" />
+  <!-- Telefone / WhatsApp -->
+  <p style="margin-top:22px; display:flex; align-items:center; gap:10px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#B4E408" viewBox="0 0 24 24">
+      <path d="M20.52 3.48C18.32 1.28 15.46 0 12.42 0 5.64 0 .16 5.48.16 12.26c0 2.16.56 4.28 1.62 6.18L0 24l5.74-1.76a12.32 12.32 0 006.68 1.9c6.78 0 12.26-5.48 12.26-12.26 0-3.04-1.28-5.9-3.48-8.1zM12.42 21.2c-2.16 0-4.26-.6-6.08-1.72l-.44-.26-3.42 1.06 1.1-3.34-.28-.46a10.17 10.17 0 01-1.5-5.22c0-5.62 4.58-10.2 10.2-10.2 2.74 0 5.32 1.06 7.26 2.98 1.94 1.92 3.02 4.52 3.02 7.28 0 5.62-4.58 10.2-10.2 10.2zm5.74-7.62c-.3-.16-1.76-.86-2.04-.96-.28-.1-.48-.16-.68.16-.2.3-.78.96-.96 1.16-.18.2-.36.22-.66.08-.3-.16-1.28-.48-2.44-1.54-.9-.8-1.5-1.78-1.68-2.08-.18-.3-.02-.46.14-.62.14-.14.3-.36.44-.54.14-.18.18-.3.28-.5.1-.2.04-.38-.02-.54-.06-.16-.68-1.62-.94-2.22-.24-.58-.48-.5-.66-.5-.18 0-.36 0-.56.02-.18.02-.48.06-.74.38-.26.3-1 1-.96 2.44.04 1.44 1.02 2.84 1.16 3.04.14.2 2 3.04 4.84 4.26.68.3 1.2.48 1.62.62.68.22 1.3.18 1.8.1.54-.08 1.76-.72 2-1.42.26-.7.26-1.28.18-1.42-.08-.14-.26-.22-.54-.36z"/>
     </svg>
-  </a>
+    <a href="https://wa.me/5531986773819" target="_blank" style="color:var(--ink);text-decoration:none;">
+      +55 (31) 98677-3819
+    </a>
+  </p>
 
-  <script>
+  <!-- Email -->
+  <p style="margin-top:18px; display:flex; align-items:center; gap:10px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#B4E408" viewBox="0 0 24 24">
+      <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6C22 4.897 21.103 4 20 4zM4 6h16l-8 5L4 6zm0 12V8l8 5 8-5v10H4z"/>
+    </svg>
+    <a href="mailto:contato@amarelolimao.com">contato@amarelolimao.com</a>
+  </p>
 
-  </script>
+  <!-- Instagram -->
+  <p style="margin-top:18px; display:flex; align-items:center; gap:10px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#B4E408" viewBox="0 0 24 24">
+      <path d="M12 2.2c3.2 0 3.6.01 4.9.07 1.2.06 2 .25 2.4.42.6.23 1.1.5 1.6 1 .5.5.77 1 .99 1.6.17.4.36 1.2.42 2.4.06 1.3.07 1.7.07 4.9s-.01 3.6-.07 4.9c-.06 1.2-.25 2-.42 2.4-.22.6-.5 1.1-.99 1.6-.5.5-1 .77-1.6.99-.4.17-1.2.36-2.4.42-1.3.06-1.7.07-4.9.07s-3.6-.01-4.9-.07c-1.2-.06-2-.25-2.4-.42-.6-.22-1.1-.5-1.6-.99-.5-.5-.77-1-.99-1.6-.17-.4-.36-1.2-.42-2.4C2.2 15.6 2.2 15.2 2.2 12s.01-3.6.07-4.9c.06-1.2.25-2 .42-2.4.22-.6.5-1.1.99-1.6.5-.5 1-.77 1.6-.99.4-.17 1.2-.36 2.4-.42C8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3.01 7 .07 5.6.13 4.5.39 3.6.79 2.6 1.2 1.8 1.8 1.1 2.6.4 3.4-.1 4.2.02 6 .01 8.3 0 8.7 0 12s.01 3.7.07 5c.06 1.4.32 2.5.72 3.4.4.9 1 1.7 1.8 2.4.8.8 1.6 1.3 2.4 1.7.9.4 2 .6 3.4.7 1.3.06 1.7.07 5 .07s3.7-.01 5-.07c1.4-.06 2.5-.32 3.4-.72.9-.4 1.7-1 2.4-1.8.8-.8 1.3-1.6 1.7-2.4.4-.9.6-2 .7-3.4.06-1.3.07-1.7.07-5s-.01-3.7-.07-5c-.06-1.4-.32-2.5-.72-3.4-.4-.9-1-1.7-1.8-2.4-.8-.8-1.6-1.3-2.4-1.7-.9-.4-2-.6-3.4-.7C15.7.01 15.3 0 12 0zm0 5.8A6.2 6.2 0 105.8 12 6.2 6.2 0 0012 5.8zm0 10.2A4 4 0 1116 12a4 4 0 01-4 4zm6.4-10.9a1.4 1.4 0 11-1.4-1.4 1.4 1.4 0 011.4 1.4z"/>
+    </svg>
+    <a href="https://instagram.com/amarelolimaobr" target="_blank">@amarelolimaobr</a>
+  </p>
+
+  <!-- Endereço -->
+  <p style="margin-top:18px; display:flex; align-items:center; gap:10px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#B4E408" viewBox="0 0 24 24">
+      <path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+    </svg>
+    Bela Vista / Vale Verde — Palhoça, SC
+  </p>
+  <p style="margin-left:26px; font-size:14px; color:var(--muted); margin-top:2px;">
+    Atendimento online em todo o Brasil 🍋
+  </p>
+</div>
+
+
+      <!-- LADO DIREITO -->
+      <form class="card" id="lead-form" style="background:#000;">
+        <label style="display:block;margin-bottom:10px;">
+          Nome<br><input required name="nome" placeholder="Seu nome" style="width:100%;padding:12px;border-radius:12px;background:#111;color:#fff;border:1px solid #222;">
+        </label>
+        <label style="display:block;margin-bottom:10px;">
+          Negócio<br><input required name="negocio" placeholder="Salão, restaurante, artista..." style="width:100%;padding:12px;border-radius:12px;background:#111;color:#fff;border:1px solid #222;">
+        </label>
+        <label style="display:block;margin-bottom:16px;">
+          WhatsApp<br><input required name="whats" placeholder="(DDD) 9 9999-9999" style="width:100%;padding:12px;border-radius:12px;background:#111;color:#fff;border:1px solid #222;">
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <!-- MAPA -->
+    <div style="margin-top:40px; border-radius:16px; overflow:hidden; box-shadow:0 0 30px rgba(0,0,0,0.4);">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0799225293797!2d-48.67367228494337!3d-27.63925928282107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273ef35e83b14f%3A0x8ed0eab4d3c02a7b!2sBela%20Vista%2C%20Palho%C3%A7a%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+        width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- 🗣️ SESSÃO DE DEPOIMENTOS -->
+<section id="depoimentos" style="background:var(--bg-alt); padding:80px 0;">
+  <div class="wrap">
+    <h2>O que nossos clientes dizem 🍋</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <p>“Meu salão ganhou visibilidade em menos de uma semana. Agora o telefone não para!”</p>
+        <strong>— Fernanda Silva, Beleza Bela</strong>
+      </div>
+      <div class="card">
+        <p>“Tive retorno real com o site. Simples, bonito e com resultado rápido.”</p>
+        <strong>— Carlos Lima, Pizzaria Napoli</strong>
+      </div>
+      <div class="card">
+        <p>“A Amarelo Limão me ajudou a aparecer no Google e fechar eventos sem precisar de anúncios.”</p>
+        <strong>— DJ Rafa Gomes</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;padding:20px 0;">
+    <small>© <span id="year"></span> Amarelo Limão — todos os direitos reservados 🍋</small>
+  </div>
+</footer>
+
+
+
+
+
+<<!-- 🐾 Mascote Baltazar (link direto pro WhatsApp) -->
+<a class="baltazar" id="baltazar"
+   href="https://wa.me/5531986773819?text=Oi!%20Vim%20pelo%20Baltazar%20💛%20Quero%20saber%20mais%20sobre%20site%20e%20presença%20no%20Google."
+   target="_blank" rel="noopener" aria-label="Falar com a Amarelo Limão no WhatsApp">
+  <img src="Imagens/balta_dentinho.png" alt="Mascote Baltazar Dentinho">
+  <div class="baltazar-msg">💛 Oi, sou o Baltazar!<br>Posso te ajudar?</div>
+</a>
+
+
+
+<!-- 🖤 Botão WhatsApp flutuante com ícone preto (SVG) -->
+<!-- 🖤 Botão WhatsApp flutuante atualizado -->
+<a href="https://wa.me/5531986773819?text=Oi!%20Quero%20um%20site%20e%20Google%20Business%20Profile%20com%20a%20Amarelo%20Lim%C3%A3o!🍋"
+   class="whatsapp-lux"
+   target="_blank"
+   aria-label="Falar no WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M380.9 97.1C339 55.1 283.2 32 224.1 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111.1L0 480l117.6-30.8c32.5 17.8 68.9 27.1 106.4 27.1h.1c122.3 0 221.9-99.6 221.9-222 .1-59.1-23-114.9-65.1-156.9zm-156.8 319c-33.2 0-65.7-8.9-94.2-25.7l-6.7-4-69.8 18.2 18.7-68.1-4.4-7C50.5 299.3 40 262.4 40 224.1 40 124.4 124.5 40 224.1 40c53.1 0 102.9 20.7 140.3 58.1 37.4 37.4 58 87.2 57.9 140.4 0 99.6-84.5 184-184.2 184zm101.2-138.6c-5.5-2.8-32.8-16.1-37.9-17.9-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.5-14.3 17.9-17.6 21.6-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.2 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.2-17.1-41.4-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2s-9.7 1.4-14.8 6.9c-5.1 5.5-19.4 18.9-19.4 46s19.9 53.4 22.6 57.1c2.8 3.7 38.9 59.4 94.1 83.4 13.1 5.7 23.3 9.1 31.3 11.6 13.1 4.2 25.1 3.6 34.5 2.2 10.5-1.6 32.8-13.4 37.5-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.4-5-3.8-10.5-6.6z"/>
+  </svg>
+</a>
+
+
+
+<!-- JS -->
+<script src="script.js?v=3"></script>
+
 </body>
-
 </html>
